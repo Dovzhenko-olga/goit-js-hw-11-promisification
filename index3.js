@@ -6,7 +6,7 @@ const makeTransaction = transaction => {
   
   return new Promise((onSuccess, onError) => {
     const delay = randomIntegerFromInterval(200, 500);
-console.log(delay);
+
     setTimeout(() => {
       const canProcess = Math.random() > 0.3;
   
